@@ -1,8 +1,8 @@
 # data-analysis-data-visualization
-# statistics for data scientist
+## statistics for data scientist
 Data science includes extracting data and results, and statistics focus on the analysis and communication of the data results. Statistical data science works to explain the trends and results of a data set by identifying the statistical correlations and distribution of variables and values.
 
-## probability
+### probability
 The probability is the measure of the likelihood of an event to happen. It measures the certainty of the event. The formula for probability is given by; P(E) = Number of Favourable Outcomes/Number of total outcomes.
 
 example of probability :
@@ -19,36 +19,36 @@ then, We have to enter the values we got earlier into the probability formula = 
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/c0beeeaa-f60c-46b7-a1b5-9c47822fe69a)
 
-## Measure of central tendency
+### Measure of central tendency
 The central tendency measure is defined as the number used to represent the center or middle of a set of data values. The three commonly used measures of central tendency are the mean, median, and mode.
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/b188a2ec-fbaa-494e-802e-3140536e37ab)
 
-#3 Range
+### Range
 Range, which is the difference between the largest and smallest value in the data set, describes how well the central tendency represents the data.
 
 example of range :
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/9dc1fc83-6b88-413b-a1a2-ad89f9d320eb)
 
-## Variance
+### Variance
 The term variance refers to a statistical measurement of the spread between numbers in a data set. More specifically, variance measures how far each number in the set is from the mean (average), and thus from every other number in the set.
 
 example of variance :
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/84561d59-ab93-4bd9-a9bd-58649dcf8c9e)
 
-## Standard Deviation
+### Standard Deviation
 A standard deviation is a measure of how dispersed the data is in relation to the mean. Low, or small, standard deviation indicates data are clustered tightly around the mean, and high, or large, standard deviation indicates data are more spread out.
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/e45a07ec-70a6-48e5-bfd3-88f9a39e75c2)
 
-## Quantile
+### Quantile
 Quantiles are values that split sorted data or a probability distribution into equal parts.
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/5bb6ab2e-5a9c-494e-a5bd-8e68b0335878)
 
-# Hypothesis Testing
+## Hypothesis Testing
 Hypothesis testing is a systematic procedure for deciding whether the results of a research study support a particular theory which applies to a population. Hypothesis testing uses sample data to evaluate a hypothesis about a population.
 
 libraries that are needed in hypothesis testing
@@ -88,5 +88,23 @@ Here we can see the MSE, MAE, MAPE, and r2 values. The r2 value is 0.98 or 98%, 
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/fca3a635-0a5f-418d-b03e-3ebde0078fa5)
 
-
 # data visualization
+The process of finding trends and correlations in our data by representing it pictorially is called Data Visualization. To perform data visualization in python, we can use various python data visualization modules such as Matplotlib, Seaborn, Plotly, etc. here we're going to use matplotlib and seaborn. Matplotlib is a cross-platform, data visualization and graphical plotting library (histograms, scatter plots, bar charts, etc) for Python and its numerical extension NumPy. Matplotlib is powerful tool for executing a variety of tasks. It is able to create different types of visualization reports like line plots, scatter plots, histograms, bar charts, pie charts, box plots, and many more different plots. Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+- Line chart
+  A line chart is a type of chart used to show information that changes over time. Line charts are created by plotting a series of several points and connecting them with a straight line. Here is an example how to create a line chart using matplotlib with darkgrid seaborn style.
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/42acc2e1-6af9-49ce-9237-90a9b43bfb10)
+
+output :
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/c057e038-6c32-4b39-9498-71fd01cbe06b)
+
+- Bar graph using matplotlib
+  A bar graph is a graphical representation of information. It uses bars that extend to different heights to depict value. Here is how to make a bar graph using matplotlib :
+  
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/827b4fb9-3db0-433d-a82c-da5d5393ce96)
+
+output :
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/b320f5e4-187a-48a9-b7f2-a00c80df331f)
