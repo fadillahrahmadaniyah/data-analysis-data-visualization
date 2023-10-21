@@ -32,6 +32,61 @@ example of range :
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/9dc1fc83-6b88-413b-a1a2-ad89f9d320eb)
 
 ## Variance
+The term variance refers to a statistical measurement of the spread between numbers in a data set. More specifically, variance measures how far each number in the set is from the mean (average), and thus from every other number in the set.
+
+example of variance :
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/84561d59-ab93-4bd9-a9bd-58649dcf8c9e)
+
+## Standard Deviation
+A standard deviation is a measure of how dispersed the data is in relation to the mean. Low, or small, standard deviation indicates data are clustered tightly around the mean, and high, or large, standard deviation indicates data are more spread out.
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/e45a07ec-70a6-48e5-bfd3-88f9a39e75c2)
+
+## Quantile
+Quantiles are values that split sorted data or a probability distribution into equal parts.
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/5bb6ab2e-5a9c-494e-a5bd-8e68b0335878)
+
+# Hypothesis Testing
+Hypothesis testing is a systematic procedure for deciding whether the results of a research study support a particular theory which applies to a population. Hypothesis testing uses sample data to evaluate a hypothesis about a population.
+
+libraries that are needed in hypothesis testing
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/d770f407-2f3d-4a76-a61c-15074e767aaf)
+
+in hypothesis testing there are t-test and p values. A t test is a statistical test that is used to compare the means of two groups. The P value is defined as the probability under the assumption of no effect or no difference (null hypothesis), of obtaining a result equal to or more extreme than what was actually observed.
+
+example of hypothesis testing :
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/86047e67-7377-4266-b2be-8a4f17064000)
+
+## Simple Linear Regression
+Simple linear regression is a regression model that estimates the relationship between one independent variable and one dependent variable using a straight line. Both variables should be quantitative.
+
+For example, here we’re gonna do a simple linear regression using height-weight dataset :
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/707305ab-a593-4680-85a6-92dbf9f01b90)
+
+here we create two variables x and y, then we have to separate the train set and test set using train size 1/3 and random state 42.
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/346b75c5-d9ff-4f7c-9bd8-c45de95a62ce)
+
+here we store the LinearRegression into variable named regressor and fitting it into training. We also can see the coefficients.
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/ab23756f-cea0-4550-8a0f-559a6061d6a7)
+
+After that, we’re going to predict the result, y_pred is a variable that will store the output and X_test is the predictor. And then we create a variable called result which contains the actual values and the predict values.
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/0b036410-fd61-4c2e-a267-e54986310c78)
+
+scatter plot output :
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/5cb7a43e-ea75-4e7b-8367-89ccee587eee)
+
+Here we can see the MSE, MAE, MAPE, and r2 values. The r2 value is 0.98 or 98%, if the r2 value is closer to 1 or 100%, the more accurate the forecasting results are
+
+![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/fca3a635-0a5f-418d-b03e-3ebde0078fa5)
 
 
 # data visualization
