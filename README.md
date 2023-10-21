@@ -92,19 +92,74 @@ Here we can see the MSE, MAE, MAPE, and r2 values. The r2 value is 0.98 or 98%, 
 The process of finding trends and correlations in our data by representing it pictorially is called Data Visualization. To perform data visualization in python, we can use various python data visualization modules such as Matplotlib, Seaborn, Plotly, etc. here we're going to use matplotlib and seaborn. Matplotlib is a cross-platform, data visualization and graphical plotting library (histograms, scatter plots, bar charts, etc) for Python and its numerical extension NumPy. Matplotlib is powerful tool for executing a variety of tasks. It is able to create different types of visualization reports like line plots, scatter plots, histograms, bar charts, pie charts, box plots, and many more different plots. Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
 - Line chart
+  
   A line chart is a type of chart used to show information that changes over time. Line charts are created by plotting a series of several points and connecting them with a straight line. Here is an example how to create a line chart using matplotlib with darkgrid seaborn style.
 
   ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/42acc2e1-6af9-49ce-9237-90a9b43bfb10)
 
-output :
+  output :
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/c057e038-6c32-4b39-9498-71fd01cbe06b)
 
 - Bar graph using matplotlib
+  
   A bar graph is a graphical representation of information. It uses bars that extend to different heights to depict value. Here is how to make a bar graph using matplotlib :
   
   ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/827b4fb9-3db0-433d-a82c-da5d5393ce96)
 
-output :
+  output :
 
 ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/b320f5e4-187a-48a9-b7f2-a00c80df331f)
+
+- Stacked bar graph using matplotlib
+
+  A stacked bar chart, also known as a stacked bar graph, is a graph that is used to break down and compare parts of a whole. Each bar in the chart represents a whole, and segments in the bar represent different parts or categories of that whole. Here is how to create a stacked bar graph.
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/9b6d1ac6-c89b-4160-ab69-c5ce3d564038)
+
+  output :
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/b078279d-9301-4698-baca-94873249c121)
+
+- Bar chart using seaborn
+
+  A bar graph can also be created using seaborn. Here is how to make a bar graph using seaborn :
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/afd2cb08-65d7-4a77-8af1-8853ac809bfa)
+
+  output :
+  
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/6de0f9f1-d31c-44e4-93e9-dcf343359c02)
+
+- multiple histograms in a single chart
+
+  similar to line chart, we can draw multiple histograms in a single chart. lets drew separate histograms for each species
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/2f4170c6-618b-427f-afd1-2b4ddfb4b9f6)
+
+  output :
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/01e9f4b5-af01-442c-96bb-7bcc0afeed7c)
+
+- multiple stacked histograms
+
+  multiple histograms can be stacked on top of one another by setting the stacked parameter to True.
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/8fc8bec7-0e48-4e68-924a-5e74592be822)
+
+  output :
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/afeef83e-bf22-43f7-a83f-f3c58ca2903f)
+
+- stacked histogram using seaborn
+
+  stacked histogram can also be created using seaborn. here's how to make a stacked histogram using seaborn :
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/8e896e7b-652d-4b44-b235-5213339f53f3)
+
+  output :
+
+  ![image](https://github.com/fadillahrahmadaniyah/data-analysis-data-visualization/assets/147982664/784afb1b-f3f0-41b2-94a1-fc51d6d59672)
+
+
+
